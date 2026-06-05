@@ -1,0 +1,1316 @@
+{
+  "mbtiTypes": [
+    {
+      "type": "ISTJ",
+      "name": "物流师",
+      "animeImageUrl": "https://images.unsplash.com/photo-1617791160505-6f00504e342e?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "钟南山",
+          "imageUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "屠呦呦",
+          "imageUrl": "https://images.unsplash.com/photo-1559839734-2b08b9a43273?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ISTJ是严谨踏实、值得信赖的人。他们重视传统和秩序，做事认真负责，言出必行。注重实际，不喜欢花哨，喜欢按规矩办事，是团队中最可靠的后盾。",
+        "lifeKeywords": [
+          {
+            "title": "踏实可靠",
+            "description": "是值得信赖的伙伴，做事认真负责，让人放心"
+          },
+          {
+            "title": "有条有理",
+            "description": "喜欢有秩序的生活，做事有条不紊，遵循既定流程"
+          },
+          {
+            "title": "重视传统",
+            "description": "尊重并维护传统价值观，喜欢稳定和可预测性"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "务实可靠",
+            "description": "注重事实和细节，做事认真负责，值得信赖"
+          },
+          {
+            "title": "组织能力强",
+            "description": "善于建立秩序和流程，让事情井井有条"
+          },
+          {
+            "title": "责任感强",
+            "description": "对自己的承诺负责，会全力以赴完成任务"
+          },
+          {
+            "title": "细心谨慎",
+            "description": "关注细节，做事周全，避免出错"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于固执",
+            "description": "有时可能过于坚持传统，难以接受新变化"
+          },
+          {
+            "title": "不够灵活",
+            "description": "在应对意外情况时可能显得不够变通"
+          },
+          {
+            "title": "情感表达不足",
+            "description": "可能不太善于表达自己的情感和感受"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "拥抱变化",
+            "content": "学会接受新事物和变化，不要总是坚持过去的方式"
+          },
+          {
+            "title": "学习表达情感",
+            "content": "更多地表达自己的情感和感受，让他人更好地理解你"
+          },
+          {
+            "title": "学会灵活变通",
+            "content": "在需要时能够调整计划和方法，不要过于固执"
+          },
+          {
+            "title": "发展创造力",
+            "content": "尝试用创新的方式思考和解决问题"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ISFJ",
+      "name": "守卫者",
+      "animeImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "袁隆平",
+          "imageUrl": "https://images.unsplash.com/photo-1622279457481-cbc0e51e6f18?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "张桂梅",
+          "imageUrl": "https://images.unsplash.com/photo-1598550475666-6a6ff29e5931?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ISFJ是温暖贴心、默默奉献的人。他们关心他人，善于照顾人，总是把别人的需求放在心上。忠诚可靠，是值得托付的人。",
+        "lifeKeywords": [
+          {
+            "title": "温暖守护",
+            "description": "像温暖的守护者一样，关心照顾身边的人"
+          },
+          {
+            "title": "体贴入微",
+            "description": "非常关注他人的感受和需求，总是默默付出"
+          },
+          {
+            "title": "忠诚可靠",
+            "description": "对家人和朋友极其忠诚，是值得信赖的伙伴"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "体贴关怀",
+            "description": "善于关心他人，总能注意到别人的需要"
+          },
+          {
+            "title": "有责任感",
+            "description": "认真负责，会尽心尽力完成自己的义务"
+          },
+          {
+            "title": "耐心细致",
+            "description": "做事细心，有耐心，能够处理繁琐的事务"
+          },
+          {
+            "title": "忠诚可靠",
+            "description": "对重视的人非常忠诚，是可靠的朋友和伴侣"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过度付出",
+            "description": "可能过于照顾他人而忽视自己的需求"
+          },
+          {
+            "title": "难以拒绝",
+            "description": "不善于拒绝别人，容易让自己负担过重"
+          },
+          {
+            "title": "过于谦虚",
+            "description": "可能过于谦虚，不太善于表达自己的成就"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "学会关爱自己",
+            "content": "不要总是把他人的需求放在第一位，也要关注自己的需要"
+          },
+          {
+            "title": "学会说\"不\"",
+            "content": "学会拒绝不合理的请求，保护自己的时间和精力"
+          },
+          {
+            "title": "看到自己的价值",
+            "content": "不要过于谦虚，要认识到自己的贡献和价值"
+          },
+          {
+            "title": "接受变化",
+            "content": "生活中总会有变化，学会适应和接受新的事物"
+          }
+        ]
+      }
+    },
+    {
+      "type": "INFJ",
+      "name": "提倡者",
+      "animeImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "鲁迅",
+          "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "杨绛",
+          "imageUrl": "https://images.unsplash.com/photo-1531746020798-fe6554d55d18?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "INFJ是富有洞察力和理想主义的人。他们深刻理解人性，追求有意义的人生，希望为世界做出积极贡献。",
+        "lifeKeywords": [
+          {
+            "title": "洞察人心",
+            "description": "对人性有深刻的理解，能够洞察他人的内心"
+          },
+          {
+            "title": "理想主义",
+            "description": "有坚定的价值观和理想，追求有意义的人生"
+          },
+          {
+            "title": "富有使命感",
+            "description": "感觉自己有特殊的使命，要为世界做出贡献"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "富有洞察力",
+            "description": "对人和事有深刻的理解，能够洞察本质"
+          },
+          {
+            "title": "坚持原则",
+            "description": "有坚定的价值观，不会轻易妥协"
+          },
+          {
+            "title": "有创造力",
+            "description": "能够用独特的方式思考和解决问题"
+          },
+          {
+            "title": "有同情心",
+            "description": "关心他人，希望帮助别人成长和幸福"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于完美主义",
+            "description": "对自己和他人可能要求过高"
+          },
+          {
+            "title": "容易倦怠",
+            "description": "因为过度付出而容易感到疲惫"
+          },
+          {
+            "title": "过于敏感",
+            "description": "可能对批评和冲突过于敏感"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "接受不完美",
+            "content": "不要对自己和他人期望过高，学会接受不完美"
+          },
+          {
+            "title": "学会休息",
+            "content": "不要过度付出，给自己留出休息和恢复的时间"
+          },
+          {
+            "title": "建立边界",
+            "content": "建立健康的边界，保护自己的时间和精力"
+          },
+          {
+            "title": "活在当下",
+            "content": "不要总是想着未来，学会享受现在的时刻"
+          }
+        ]
+      }
+    },
+    {
+      "type": "INTJ",
+      "name": "建筑师",
+      "animeImageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "钱学森",
+          "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "任正非",
+          "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "INTJ是有战略思维和远见的人。他们善于规划长远，追求卓越，独立自信，是天生的战略家。",
+        "lifeKeywords": [
+          {
+            "title": "战略思维",
+            "description": "善于从全局和长远角度思考问题，制定战略"
+          },
+          {
+            "title": "追求卓越",
+            "description": "对自己要求很高，不断追求更高的目标"
+          },
+          {
+            "title": "独立自主",
+            "description": "有自己的想法，不轻易受他人影响"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "战略思维",
+            "description": "善于系统思考，能够制定长远的计划"
+          },
+          {
+            "title": "独立自主",
+            "description": "有独立的思想，不随波逐流"
+          },
+          {
+            "title": "有远见",
+            "description": "能够预见未来的趋势和可能性"
+          },
+          {
+            "title": "高效执行",
+            "description": "一旦确定目标，就会高效地去实现"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于强势",
+            "description": "有时可能显得过于强势和固执"
+          },
+          {
+            "title": "情感疏离",
+            "description": "可能显得不够关心他人的情感"
+          },
+          {
+            "title": "不耐烦",
+            "description": "对效率低的情况可能缺乏耐心"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "发展同理心",
+            "content": "更多地关注和理解他人的情感和感受"
+          },
+          {
+            "title": "学会沟通情感",
+            "content": "不要只讲道理，也要表达自己的感受"
+          },
+          {
+            "title": "接受不同的方式",
+            "content": "认识到实现目标的方式不止一种"
+          },
+          {
+            "title": "学会放松",
+            "content": "不要总是那么严肃和紧张，学会享受生活"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ISTP",
+      "name": "鉴赏家",
+      "animeImageUrl": "https://images.unsplash.com/photo-1507591070756-2f401e67e771?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "李小龙",
+          "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "林丹",
+          "imageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba821?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ISTP是务实灵活、动手能力强的人。他们善于解决实际问题，适应能力强，是天生的实干家。",
+        "lifeKeywords": [
+          {
+            "title": "务实解决",
+            "description": "遇到问题时能够冷静分析，找到实用的解决方案"
+          },
+          {
+            "title": "动手能力强",
+            "description": "喜欢动手实践，善于操作各种工具和设备"
+          },
+          {
+            "title": "灵活应变",
+            "description": "适应能力强，能够灵活应对各种情况"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "务实灵活",
+            "description": "能够灵活应对各种情况，找到实际的解决方法"
+          },
+          {
+            "title": "善于分析",
+            "description": "能够快速分析问题，找到核心所在"
+          },
+          {
+            "title": "适应力强",
+            "description": "在新环境中能够快速适应"
+          },
+          {
+            "title": "冷静理性",
+            "description": "遇事冷静，不容易被情绪左右"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "显得冷漠",
+            "description": "可能显得不太关心他人的情感"
+          },
+          {
+            "title": "缺乏耐心",
+            "description": "对重复性的工作可能缺乏耐心"
+          },
+          {
+            "title": "难以承诺",
+            "description": "可能不太喜欢做出长期承诺"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "关注情感连接",
+            "content": "不仅要一起做事，也要培养情感上的连接"
+          },
+          {
+            "title": "学会表达情感",
+            "content": "让对方知道你的感受，不要总是藏在心里"
+          },
+          {
+            "title": "做出承诺",
+            "content": "在适当的时候做出承诺，给对方安全感"
+          },
+          {
+            "title": "规划未来",
+            "content": "一起规划一下未来，不要总是活在当下"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ISFP",
+      "name": "探险家",
+      "animeImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "王菲",
+          "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "周杰伦",
+          "imageUrl": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ISFP是温和敏感、有艺术气质的人。他们活在当下，善于发现生活中的美好，用艺术表达自己。",
+        "lifeKeywords": [
+          {
+            "title": "活在当下",
+            "description": "充分享受当下的每一刻，感受生活中的美好"
+          },
+          {
+            "title": "温和善良",
+            "description": "性格温和，心地善良，不喜欢冲突"
+          },
+          {
+            "title": "艺术气质",
+            "description": "有艺术天赋，善于用各种方式表达自己"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "温和体贴",
+            "description": "性格温和，关心他人的感受"
+          },
+          {
+            "title": "有艺术天赋",
+            "description": "有审美能力，善于用艺术表达自己"
+          },
+          {
+            "title": "灵活适应",
+            "description": "能够灵活适应不同的情况和环境"
+          },
+          {
+            "title": "善良真诚",
+            "description": "内心善良，待人真诚"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于敏感",
+            "description": "可能对批评和冲突过于敏感"
+          },
+          {
+            "title": "回避冲突",
+            "description": "不喜欢面对冲突，可能过于妥协"
+          },
+          {
+            "title": "缺乏规划",
+            "description": "可能不太善于做长期规划"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "面对冲突",
+            "content": "不要总是回避冲突，学会建设性地解决问题"
+          },
+          {
+            "title": "表达想法",
+            "content": "勇敢地表达自己的想法和需求"
+          },
+          {
+            "title": "规划未来",
+            "content": "为未来做一些规划，不要只活在当下"
+          },
+          {
+            "title": "建立边界",
+            "content": "建立健康的边界，不要总是妥协"
+          }
+        ]
+      }
+    },
+    {
+      "type": "INFP",
+      "name": "调停者",
+      "animeImageUrl": "https://images.unsplash.com/photo-1531746020798-fe6554d55d18?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "李白",
+          "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "宫崎骏",
+          "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "INFP是理想主义、忠于内心的人。他们追求真实和意义，富有想象力，追求有价值的人生。",
+        "lifeKeywords": [
+          {
+            "title": "理想主义",
+            "description": "有崇高的理想和价值观，追求有意义的人生"
+          },
+          {
+            "title": "内心丰富",
+            "description": "内心世界非常丰富，有深刻的思考和感受"
+          },
+          {
+            "title": "追求真实",
+            "description": "忠于自己的内心，追求真实和真诚"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "理想主义",
+            "description": "有坚定的价值观，追求有意义的生活"
+          },
+          {
+            "title": "富有创造力",
+            "description": "想象力丰富，能够用独特的方式表达自己"
+          },
+          {
+            "title": "有同理心",
+            "description": "能够深切理解他人的感受"
+          },
+          {
+            "title": "坚持价值观",
+            "description": "忠于自己的价值观，不轻易妥协"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于理想化",
+            "description": "可能对现实和他人期望过高"
+          },
+          {
+            "title": "容易拖延",
+            "description": "可能因为追求完美而拖延"
+          },
+          {
+            "title": "回避冲突",
+            "description": "可能过于回避冲突和批评"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "接受现实",
+            "content": "不要让理想遮蔽了现实，接受生活中的不完美"
+          },
+          {
+            "title": "行动起来",
+            "content": "不要总是停留在思考，要付诸行动"
+          },
+          {
+            "title": "面对冲突",
+            "content": "不要回避冲突，学会建设性地处理"
+          },
+          {
+            "title": "接受不完美",
+            "content": "不要等到完美才开始，在行动中完善"
+          }
+        ]
+      }
+    },
+    {
+      "type": "INTP",
+      "name": "逻辑学家",
+      "animeImageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "陈景润",
+          "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "华罗庚",
+          "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "INTP是逻辑思维强、热爱思考的人。他们对知识有强烈好奇心，喜欢分析和理解事物的本质。",
+        "lifeKeywords": [
+          {
+            "title": "逻辑思辨",
+            "description": "喜欢用逻辑分析问题，寻求事物的本质"
+          },
+          {
+            "title": "爱思考",
+            "description": "热衷于思考各种理论和抽象概念"
+          },
+          {
+            "title": "追求真理",
+            "description": "对知识和真理有强烈的好奇心"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "逻辑思维强",
+            "description": "善于用逻辑分析和解决问题"
+          },
+          {
+            "title": "有创造力",
+            "description": "能够用独特的方式思考问题"
+          },
+          {
+            "title": "客观公正",
+            "description": "能够客观地看待问题，不受情绪影响"
+          },
+          {
+            "title": "学习能力强",
+            "description": "对感兴趣的东西学习很快"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于理论",
+            "description": "可能过于关注理论而忽视实际应用"
+          },
+          {
+            "title": "社交困难",
+            "description": "可能不善于社交和表达情感"
+          },
+          {
+            "title": "拖延",
+            "description": "可能因为追求完美而拖延"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "关注现实应用",
+            "content": "不要只停留在理论思考，关注实际应用"
+          },
+          {
+            "title": "发展社交技能",
+            "content": "学习更好地与人交流和表达情感"
+          },
+          {
+            "title": "完成项目",
+            "content": "不要总是开始新项目，要把已有的做完"
+          },
+          {
+            "title": "接受情感",
+            "content": "不要总是用逻辑分析情感，学会感受"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ESTP",
+      "name": "企业家",
+      "animeImageUrl": "https://images.unsplash.com/photo-1507591070756-2f401e67e771?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "马云",
+          "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "王健林",
+          "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ESTP是精力充沛、善于行动的人。他们灵活应变，享受当下，善于抓住机会。",
+        "lifeKeywords": [
+          {
+            "title": "灵活应变",
+            "description": "适应能力强，能够快速应对各种变化"
+          },
+          {
+            "title": "行动力强",
+            "description": "想到就做，善于抓住机会"
+          },
+          {
+            "title": "享受当下",
+            "description": "活在当下，充分享受生活"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "灵活应变",
+            "description": "适应能力强，能够快速应对变化"
+          },
+          {
+            "title": "行动力强",
+            "description": "想到就做，善于抓住机会"
+          },
+          {
+            "title": "善于观察",
+            "description": "观察力敏锐，能够注意到细节"
+          },
+          {
+            "title": "精力充沛",
+            "description": "充满活力，能够持续行动"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "缺乏规划",
+            "description": "可能不太善于做长期规划"
+          },
+          {
+            "title": "容易冲动",
+            "description": "可能过于追求刺激而冲动行事"
+          },
+          {
+            "title": "不耐烦",
+            "description": "对理论和抽象的东西可能缺乏耐心"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "规划未来",
+            "content": "不仅要活在当下，也要为未来做一些规划"
+          },
+          {
+            "title": "三思而后行",
+            "content": "行动前多思考一下后果"
+          },
+          {
+            "title": "培养耐心",
+            "description": "学会对理论和抽象的东西"
+          },
+          {
+            "title": "关注情感",
+            "content": "多关注他人的感受和情感"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ESTJ",
+      "name": "总经理",
+      "animeImageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "董明珠",
+          "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "柳传志",
+          "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ESTJ是务实高效、有组织能力的人。他们善于管理和执行，注重效率和结果。",
+        "lifeKeywords": [
+          {
+            "title": "务实高效",
+            "description": "注重实际，追求效率和结果"
+          },
+          {
+            "title": "组织能力强",
+            "description": "善于组织和管理，让事情有序进行"
+          },
+          {
+            "title": "责任感强",
+            "description": "对工作和责任认真负责"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "务实高效",
+            "description": "注重实际，追求效率和结果"
+          },
+          {
+            "title": "组织能力强",
+            "description": "善于组织和管理，让事情有序进行"
+          },
+          {
+            "title": "果断决策",
+            "description": "能够快速做出决策，不拖泥带水"
+          },
+          {
+            "title": "责任感强",
+            "description": "对工作和责任认真负责"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于固执",
+            "description": "可能过于坚持自己的方式"
+          },
+          {
+            "title": "不够灵活",
+            "description": "在应对变化时可能不够灵活"
+          },
+          {
+            "title": "忽视情感",
+            "description": "可能过于关注结果而忽视情感"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "学会灵活",
+            "content": "不要总是坚持一种方式，学会灵活应对"
+          },
+          {
+            "title": "关注情感",
+            "content": "不仅要关注结果，也要关注人的感受"
+          },
+          {
+            "title": "倾听他人",
+            "content": "学会倾听他人的意见和建议"
+          },
+          {
+            "title": "放松自己",
+            "content": "不要总是那么紧张，学会放松"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ESFP",
+      "name": "表演者",
+      "animeImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "张艺兴",
+          "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "迪丽热巴",
+          "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ESFP是热情开朗、善于社交的人。他们喜欢成为焦点，给身边的人带来快乐。",
+        "lifeKeywords": [
+          {
+            "title": "热情开朗",
+            "description": "性格外向，热情开朗，给人带来快乐"
+          },
+          {
+            "title": "善于社交",
+            "description": "善于与人交往，喜欢热闹"
+          },
+          {
+            "title": "活在当下",
+            "description": "享受当下，充分体验生活"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "热情开朗",
+            "description": "性格外向，热情开朗，给人带来快乐"
+          },
+          {
+            "title": "善于社交",
+            "description": "善于与人交往，喜欢热闹"
+          },
+          {
+            "title": "适应力强",
+            "description": "能够快速适应新环境"
+          },
+          {
+            "title": "善于观察",
+            "description": "观察力敏锐，能够注意到细节"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "容易分心",
+            "description": "可能容易被新事物吸引而分心"
+          },
+          {
+            "title": "缺乏规划",
+            "description": "可能不太善于做长期规划"
+          },
+          {
+            "title": "容易冲动",
+            "description": "可能过于追求当下快乐而忽视长期"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "规划未来",
+            "content": "不仅要享受当下，也要为未来做一些规划"
+          },
+          {
+            "title": "培养专注",
+            "content": "学会专注于一件事，不要容易分心"
+          },
+          {
+            "title": "三思而后行",
+            "content": "行动前多思考一下"
+          },
+          {
+            "title": "深度思考",
+            "content": "不仅要体验生活，也要学会深度思考"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ESFJ",
+      "name": "执政官",
+      "animeImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "何炅",
+          "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "谢娜",
+          "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ESFJ是热心肠、善于照顾人的人。他们关心他人，善于组织社交活动，维护和谐。",
+        "lifeKeywords": [
+          {
+            "title": "热心肠",
+            "description": "关心他人，乐于助人"
+          },
+          {
+            "title": "善于社交",
+            "description": "善于与人交往，维护和谐"
+          },
+          {
+            "title": "有责任感",
+            "description": "对家人和朋友有责任感"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "热心肠",
+            "description": "关心他人，乐于助人"
+          },
+          {
+            "title": "善于社交",
+            "description": "善于与人交往，维护和谐"
+          },
+          {
+            "title": "有责任感",
+            "description": "对家人和朋友有责任感"
+          },
+          {
+            "title": "组织能力强",
+            "description": "善于组织活动，让大家开心"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于在意他人",
+            "description": "可能过于在意他人的看法"
+          },
+          {
+            "title": "难以拒绝",
+            "description": "不善于拒绝别人"
+          },
+          {
+            "title": "过于传统",
+            "description": "可能过于坚持传统"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "关注自己",
+            "content": "不要总是关注他人，也要关注自己的需求"
+          },
+          {
+            "title": "学会拒绝",
+            "content": "学会拒绝不合理的请求"
+          },
+          {
+            "title": "接受变化",
+            "content": "不要总是坚持传统，学会接受变化"
+          },
+          {
+            "title": "表达自己",
+            "content": "勇敢地表达自己的想法和感受"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ENFP",
+      "name": "竞选者",
+      "animeImageUrl": "https://images.unsplash.com/photo-1531746020798-fe6554d55d18?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "撒贝宁",
+          "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "大张伟",
+          "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ENFP是热情洋溢、富有感染力的人。他们充满创意，善于激励他人，追求有意义的人生。",
+        "lifeKeywords": [
+          {
+            "title": "热情洋溢",
+            "description": "充满热情，能够感染他人"
+          },
+          {
+            "title": "富有创意",
+            "description": "有丰富的想象力和创造力"
+          },
+          {
+            "title": "追求意义",
+            "description": "追求有意义和价值的人生"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "热情洋溢",
+            "description": "充满热情，能够感染他人"
+          },
+          {
+            "title": "富有创意",
+            "description": "有丰富的想象力和创造力"
+          },
+          {
+            "title": "善于沟通",
+            "description": "善于与人交流和沟通"
+          },
+          {
+            "title": "激励他人",
+            "description": "能够激励和鼓舞他人"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "容易分心",
+            "description": "可能容易被新事物吸引"
+          },
+          {
+            "title": "过于理想化",
+            "description": "可能对现实期望过高"
+          },
+          {
+            "title": "缺乏规划",
+            "description": "可能不太善于做规划"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "专注坚持",
+            "content": "学会专注和坚持，不要总是开始新的事情"
+          },
+          {
+            "title": "接受现实",
+            "content": "不要对现实期望过高，接受不完美"
+          },
+          {
+            "title": "规划行动",
+            "content": "不仅要有想法，也要有行动"
+          },
+          {
+            "title": "照顾自己",
+            "content": "不要总是为他人，也要照顾自己"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ENFJ",
+      "name": "主人公",
+      "animeImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "周恩来",
+          "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "蔡康永",
+          "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ENFJ是有魅力和感染力的人。他们善于理解他人，激励他人成长，是天生的领导者。",
+        "lifeKeywords": [
+          {
+            "title": "有魅力",
+            "description": "有个人魅力，能够吸引他人"
+          },
+          {
+            "title": "善于理解",
+            "description": "善于理解他人的感受和需求"
+          },
+          {
+            "title": "激励他人",
+            "description": "能够激励和帮助他人成长"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "有魅力",
+            "description": "有个人魅力，能够吸引他人"
+          },
+          {
+            "title": "善于理解",
+            "description": "善于理解他人的感受和需求"
+          },
+          {
+            "title": "善于沟通",
+            "description": "善于与人沟通和交流"
+          },
+          {
+            "title": "激励他人",
+            "description": "能够激励和帮助他人成长"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于照顾他人",
+            "description": "可能过于照顾他人而忽视自己"
+          },
+          {
+            "title": "过于理想",
+            "description": "可能对他人期望过高"
+          },
+          {
+            "title": "难以处理冲突",
+            "description": "可能不善于处理冲突"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "关注自己",
+            "content": "不要总是关注他人，也要关注自己的需求"
+          },
+          {
+            "title": "接受不完美",
+            "description": "不要对他人期望过高，接受不完美"
+          },
+          {
+            "title": "面对冲突",
+            "content": "学会面对和处理冲突"
+          },
+          {
+            "title": "学会放松",
+            "content": "不要总是那么紧张，学会放松"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ENTP",
+      "name": "辩论家",
+      "animeImageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "高晓松",
+          "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "罗永浩",
+          "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ENTP是聪明好奇、善于辩论的人。他们思维敏捷，喜欢挑战，善于发现新的可能性。",
+        "lifeKeywords": [
+          {
+            "title": "聪明好奇",
+            "description": "对新事物充满好奇心，喜欢探索"
+          },
+          {
+            "title": "善于辩论",
+            "description": "思维敏捷，善于辩论"
+          },
+          {
+            "title": "创新思维",
+            "description": "能够发现新的可能性"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "聪明好奇",
+            "description": "对新事物充满好奇心，喜欢探索"
+          },
+          {
+            "title": "善于辩论",
+            "description": "思维敏捷，善于辩论"
+          },
+          {
+            "title": "创新思维",
+            "description": "能够发现新的可能性"
+          },
+          {
+            "title": "适应力强",
+            "description": "能够快速适应新情况"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "容易争论",
+            "description": "可能过于喜欢争论"
+          },
+          {
+            "title": "缺乏坚持",
+            "description": "可能缺乏坚持性"
+          },
+          {
+            "title": "不够专注",
+            "description": "可能不够专注"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "学会倾听",
+            "content": "不要总是争论，学会倾听他人"
+          },
+          {
+            "title": "坚持完成",
+            "content": "不要总是开始新的，要学会完成"
+          },
+          {
+            "title": "专注深入",
+            "content": "学会专注和深入"
+          },
+          {
+            "title": "关注细节",
+            "content": "不仅要有想法，也要关注细节"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ENTJ",
+      "name": "指挥官",
+      "animeImageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+      "representativePeopleImages": [
+        {
+          "name": "邓小平",
+          "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop"
+        },
+        {
+          "name": "李嘉诚",
+          "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop"
+        }
+      ],
+      "localizedDescription": {
+        "personalityTraits": "ENTJ是天生的领导者和战略家。他们果断决策，追求效率，善于实现目标。",
+        "lifeKeywords": [
+          {
+            "title": "领导力强",
+            "description": "天生的领导者，能够带领团队"
+          },
+          {
+            "title": "战略思维",
+            "description": "有战略思维和远见"
+          },
+          {
+            "title": "果断决策",
+            "description": "能够快速果断地做出决策"
+          }
+        ],
+        "strengths": [
+          {
+            "title": "领导力强",
+            "description": "天生的领导者，能够带领团队"
+          },
+          {
+            "title": "战略思维",
+            "description": "有战略思维和远见"
+          },
+          {
+            "title": "果断决策",
+            "description": "能够快速果断地做出决策"
+          },
+          {
+            "title": "高效执行",
+            "description": "能够高效地实现目标"
+          }
+        ],
+        "weaknesses": [
+          {
+            "title": "过于强势",
+            "description": "可能过于强势"
+          },
+          {
+            "title": "缺乏耐心",
+            "description": "可能对他人缺乏耐心"
+          },
+          {
+            "title": "忽视情感",
+            "description": "可能过于关注目标而忽视情感"
+          }
+        ],
+        "advancedGuide": [
+          {
+            "title": "学会倾听",
+            "content": "学会倾听他人的意见"
+          },
+          {
+            "title": "关注情感",
+            "description": "不仅要关注目标，也要关注情感"
+          },
+          {
+            "title": "培养耐心",
+            "content": "对他人要有耐心"
+          },
+          {
+            "title": "学会放松",
+            "content": "不要总是那么紧张"
+          }
+        ]
+      }
+    }
+  ]
+}
