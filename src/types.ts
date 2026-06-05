@@ -4,8 +4,10 @@ export interface Question {
   dim_main: 'EI' | 'SN' | 'TF' | 'JP';
   opt_a: string;
   score_a: 'E' | 'I' | 'S' | 'N' | 'T' | 'F' | 'J' | 'P';
+  weight_a: number;
   opt_b: string;
   score_b: 'E' | 'I' | 'S' | 'N' | 'T' | 'F' | 'J' | 'P';
+  weight_b: number;
 }
 
 export interface Answer {
@@ -29,6 +31,13 @@ export interface Score {
   P: number;
   mbti_type: string;
   border_flag: boolean;
+}
+
+export interface ScoringResult {
+  EI: { E: number; I: number; type: 'E' | 'I' | 'Neutral' };
+  SN: { S: number; N: number; type: 'S' | 'N' | 'Neutral' };
+  TF: { T: number; F: number; type: 'T' | 'F' | 'Neutral' };
+  JP: { J: number; P: number; type: 'J' | 'P' | 'Neutral' };
 }
 
 export interface MBTIReport {

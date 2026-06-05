@@ -1,8 +1,22 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useStore } from '../store/useStore';
-import { questions } from '../data/questions';
+import { questions as originalQuestions } from '../data/questions';
 import { ArrowLeft, ArrowRight, Clock, ChevronLeft, ChevronRight, Users, Brain, Heart, TrendingUp } from 'lucide-react';
+
+// Fisher-Yates 打乱算法
+const shuffleArray = <T,>(array: T[]): { shuffled: T[]; map: number[] } => {
+  const newArray = [...array];
+  const indexMap = newArray.map((_, i) => i);
+  
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    [indexMap[i], indexMap[j]] = [indexMap[j], indexMap[i]];
+  }
+  
+  return { shuffled: newArray, map: indexMap };
+};
 
 const Test: React.FC = () => {
   const navigate = useNavigate();
@@ -10,12 +24,23 @@ const Test: React.FC = () => {
     currentStep, 
     answers, 
     startTime, 
+    shuffledQuestions,
+    questionShuffleMap,
     setCurrentStep, 
     setAnswer, 
-    setStartTime 
+    setStartTime,
+    setShuffledQuestions,
   } = useStore();
   
   const [elapsedTime, setElapsedTime] = React.useState(0);
+
+  // 初始化时打乱题目
+  useEffect(() => {
+    if (shuffledQuestions.length === 0) {
+      const { shuffled, map } = shuffleArray(originalQuestions);
+      setShuffledQuestions(shuffled, map);
+    }
+  }, [shuffledQuestions.length, setShuffledQuestions]);
 
   useEffect(() => {
     if (!startTime) {
@@ -29,6 +54,8 @@ const Test: React.FC = () => {
     return () => clearInterval(timer);
   }, [startTime, setStartTime]);
 
+  // 使用打乱后的题目
+  const questions = shuffledQuestions.length > 0 ? shuffledQuestions : originalQuestions;
   const totalQuestions = questions.length;
   const progress = ((currentStep + 1) / totalQuestions) * 100;
   const currentQuestion = questions[currentStep];

@@ -38,10 +38,10 @@ const Result: React.FC = () => {
   const jOrP = jPercent > pPercent ? 'J' : 'P';
 
   const letters = [
-    { letter: eOrI, opposite: eOrI === 'E' ? 'I' : 'E', leftPercent: ePercent, rightPercent: iPercent, leftColor: '#D946EF', rightColor: '#3B82F6', leftLabel: '外向', rightLabel: '内向' },
-    { letter: sOrN, opposite: sOrN === 'S' ? 'N' : 'S', leftPercent: sPercent, rightPercent: nPercent, leftColor: '#10B981', rightColor: '#F59E0B', leftLabel: '实感', rightLabel: '直觉' },
-    { letter: tOrF, opposite: tOrF === 'T' ? 'F' : 'T', leftPercent: tPercent, rightPercent: fPercent, leftColor: '#3B82F6', rightColor: '#EC4899', leftLabel: '理性', rightLabel: '感性' },
-    { letter: jOrP, opposite: jOrP === 'J' ? 'P' : 'J', leftPercent: jPercent, rightPercent: pPercent, leftColor: '#8B5CF6', rightColor: '#F97316', leftLabel: '判断', rightLabel: '知觉' },
+    { letter: 'E', opposite: 'I', leftPercent: ePercent, rightPercent: iPercent, leftColor: '#D946EF', rightColor: '#3B82F6', leftLabel: '外向', rightLabel: '内向' },
+    { letter: 'S', opposite: 'N', leftPercent: sPercent, rightPercent: nPercent, leftColor: '#10B981', rightColor: '#F59E0B', leftLabel: '实感', rightLabel: '直觉' },
+    { letter: 'T', opposite: 'F', leftPercent: tPercent, rightPercent: fPercent, leftColor: '#3B82F6', rightColor: '#EC4899', leftLabel: '理性', rightLabel: '感性' },
+    { letter: 'J', opposite: 'P', leftPercent: jPercent, rightPercent: pPercent, leftColor: '#8B5CF6', rightColor: '#F97316', leftLabel: '判断', rightLabel: '知觉' },
   ];
 
   const auxiliaryLetters = [
@@ -597,7 +597,7 @@ const Result: React.FC = () => {
           </div>
         </section>
 
-        {/* 15. 恋爱分析 */}
+        {/* 14. 恋爱分析 */}
         <section>
           <div className="flex items-center gap-3 mb-5">
             <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #EC4899 0%, #DB2777 100%)' }}>
@@ -651,7 +651,7 @@ const Result: React.FC = () => {
 
               {/* 恋爱状态 */}
               {report.loveAnalysis.loveStatus && (
-                <div className="bg-white rounded-3xl overflow-hidden mb-5" style={{ boxShadow: '0 8px 30px rgba(0, 0, 0, 0.06)' }}>
+                <div className="bg-white rounded-3xl overflow-hidden" style={{ boxShadow: '0 8px 30px rgba(0, 0, 0, 0.06)' }}>
                   <div className="px-6 py-4" style={{ background: 'linear-gradient(90deg, #10B981 0%, #14B8A6 100%)' }}>
                     <h3 className="text-white font-bold text-lg flex items-center gap-2">
                       <span className="text-2xl">🌸</span>
@@ -691,43 +691,54 @@ const Result: React.FC = () => {
                   </div>
                 </div>
               )}
-
-              {/* 恋爱配对 */}
-              {report.loveAnalysis.loveMatch && (
-                <div className="bg-white rounded-3xl overflow-hidden" style={{ boxShadow: '0 8px 30px rgba(0, 0, 0, 0.06)' }}>
-                  <div className="px-6 py-4" style={{ background: 'linear-gradient(90deg, #F43F5E 0%, #EC4899 100%)' }}>
-                    <h3 className="text-white font-bold text-lg flex items-center gap-2">
-                      <span className="text-2xl">💑</span>
-                      恋爱配对
-                    </h3>
-                  </div>
-                  <div className="p-6">
-                    <div className="space-y-4">
-                      {report.loveAnalysis.loveMatch.map((match: any, index: number) => (
-                        <div key={index} className="rounded-2xl p-5" style={{ border: '2px solid #22C55E', background: 'linear-gradient(135deg, #F0FDF4 0%, #D1FAE5 100%)', transition: 'all 0.3s ease' }}>
-                          <div className="flex items-center justify-between mb-3">
-                            <div className="flex items-center gap-3">
-                              <div className="w-12 h-12 rounded-xl flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #22C55E 0%, #10B981 100%)' }}>
-                                <span className="text-white font-bold">{match.type}</span>
-                              </div>
-                              <div>
-                                <h4 className="font-bold text-gray-800">{match.type}类型</h4>
-                                <p className="text-gray-500 text-xs">契合度极高</p>
-                              </div>
-                            </div>
-                            <div className="text-right">
-                              <span className="text-2xl font-black text-green-600">{match.compatibility}</span>
-                              <p className="text-green-500 text-xs">绝配</p>
-                            </div>
-                          </div>
-                          <p className="text-gray-600 text-sm">{match.description}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              )}
             </>
+          )}
+        </section>
+
+        {/* 15. 恋爱配对 */}
+        <section>
+          <div className="flex items-center gap-3 mb-5">
+            <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #F43F5E 0%, #EC4899 100%)' }}>
+              <span className="text-white text-lg">💑</span>
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-gray-800">第15章 恋爱配对</h2>
+            </div>
+          </div>
+
+          {report.loveAnalysis?.loveMatch && (
+            <div className="bg-white rounded-3xl overflow-hidden" style={{ boxShadow: '0 8px 30px rgba(0, 0, 0, 0.06)' }}>
+              <div className="px-6 py-4" style={{ background: 'linear-gradient(90deg, #F43F5E 0%, #EC4899 100%)' }}>
+                <h3 className="text-white font-bold text-lg flex items-center gap-2">
+                  <span className="text-2xl">💑</span>
+                  最佳配对
+                </h3>
+              </div>
+              <div className="p-6">
+                <div className="space-y-4">
+                  {report.loveAnalysis.loveMatch.map((match: any, index: number) => (
+                    <div key={index} className="rounded-2xl p-5" style={{ border: '2px solid #22C55E', background: 'linear-gradient(135deg, #F0FDF4 0%, #D1FAE5 100%)', transition: 'all 0.3s ease' }}>
+                      <div className="flex items-center justify-between mb-3">
+                        <div className="flex items-center gap-3">
+                          <div className="w-12 h-12 rounded-xl flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #22C55E 0%, #10B981 100%)' }}>
+                            <span className="text-white font-bold">{match.type}</span>
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-800">{match.type}类型</h4>
+                            <p className="text-gray-500 text-xs">契合度极高</p>
+                          </div>
+                        </div>
+                        <div className="text-right">
+                          <span className="text-2xl font-black text-green-600">{match.compatibility}</span>
+                          <p className="text-green-500 text-xs">绝配</p>
+                        </div>
+                      </div>
+                      <p className="text-gray-600 text-sm">{match.description}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           )}
         </section>
 

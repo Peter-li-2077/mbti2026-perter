@@ -1,24 +1,44 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useStore } from '../store/useStore';
-import { questions } from '../data/questions';
+import { questions as originalQuestions } from '../data/questions';
 import { calculateScore, validateTest } from '../utils/scoring';
 import { CheckCircle, ArrowLeft, ShieldCheck, Sparkles, Lock, Unlock } from 'lucide-react';
 
 const Payment: React.FC = () => {
   const navigate = useNavigate();
-  const { answers, startTime, setScore, setHasPaid, hasPaid } = useStore();
+  const { answers, startTime, setScore, setHasPaid, hasPaid, shuffledQuestions, questionShuffleMap } = useStore();
   const [isProcessing, setIsProcessing] = React.useState(false);
 
   const costSeconds = startTime ? Math.floor((Date.now() - startTime) / 1000) : 0;
   const isValid = validateTest(costSeconds);
+
+  // 重新映射答案到原始题目顺序
+  const getMappedAnswers = () => {
+    if (shuffledQuestions.length === 0 || questionShuffleMap.length === 0) {
+      return answers;
+    }
+    
+    // 创建一个原始顺序的答案数组
+    const mappedAnswers: ('A' | 'B')[] = new Array(originalQuestions.length).fill('A' as const);
+    
+    // 把打乱后的答案映射回原始顺序
+    answers.forEach((answer, index) => {
+      if (questionShuffleMap[index] !== undefined) {
+        mappedAnswers[questionShuffleMap[index]] = answer;
+      }
+    });
+    
+    return mappedAnswers;
+  };
 
   const handlePayment = async () => {
     setIsProcessing(true);
     
     await new Promise(resolve => setTimeout(resolve, 1500));
     
-    const score = calculateScore(questions, answers);
+    const mappedAnswers = getMappedAnswers();
+    const score = calculateScore(originalQuestions, mappedAnswers);
     setScore(score);
     setHasPaid(true);
     
@@ -26,7 +46,8 @@ const Payment: React.FC = () => {
   };
 
   const handleSkip = () => {
-    const score = calculateScore(questions, answers);
+    const mappedAnswers = getMappedAnswers();
+    const score = calculateScore(originalQuestions, mappedAnswers);
     setScore(score);
     setHasPaid(true);
     navigate('/result');
